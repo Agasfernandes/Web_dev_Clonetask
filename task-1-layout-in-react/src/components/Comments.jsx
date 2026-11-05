@@ -6,14 +6,14 @@ export default function Comments() {
       <div className="comment-card">
         <strong>soundseeker92</strong>
         <p>
-          This article beautifully captures the essence of experimental sound. Erased Tapes is truly pushing boundaries. Makes me want to revisit Nils Frahm's early work. I wonder what you think about their older stuff?
+          This article beautifully captures the essence of experimental sound. Erased Tapes is truly pushing boundaries. Makes me want to revisit Nils Frahm&apos;s early work. I wonder what you think about their older stuff?
         </p>
       </div>
 
       <div className="comment-card">
         <strong>Ted Baker</strong>
         <p>
-          I've been following the label for years—so glad someone's finally writing about their impact.
+          I&apos;ve been following the label for years—so glad someone&apos;s finally writing about their impact.
         </p>
       </div>
 

@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function MovieCard({ movie, layoutClass }) {
   return (
     <article className={`movie-card ${layoutClass}`}>
@@ -13,3 +15,12 @@ export default function MovieCard({ movie, layoutClass }) {
     </article>
   );
 }
+
+MovieCard.propTypes = {
+  movie: PropTypes.shape({
+    poster: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
+  layoutClass: PropTypes.string.isRequired,
+};
